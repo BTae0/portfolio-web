@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>배태영 포트폴리오 | Power Platform 개발자</title>
+  <meta name="description" content="RPA 도입·운영과 Power Apps 개발 경험을 담은 배태영의 포트폴리오">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%232563eb%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3EB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-in">
+      <a class="brand" href="#hero">배태영</a>
+      <div class="links">
+        <a href="#impact">Impact</a>
+        <a href="#rpa">R사 RPA</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="load-error" class="load-error" role="alert" hidden></div>
+
+  <main class="wrap">
+    <header id="hero" class="hero"></header>
+    <section id="impact" class="section"></section>
+    <section id="rpa" class="section"></section>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="lead">이전 직장에서 수행한 RPA·Power Apps 프로젝트입니다.</p>
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="유형 필터">
+          <button class="chip-btn active" data-filter="all" aria-pressed="true">전체</button>
+          <button class="chip-btn" data-filter="rpa" aria-pressed="false">Power Automate</button>
+          <button class="chip-btn" data-filter="app" aria-pressed="false">Power Apps</button>
+        </div>
+        <input id="project-search" type="search" placeholder="프로젝트·기술 검색" aria-label="프로젝트 검색">
+      </div>
+      <div id="project-list" class="grid"></div>
+    </section>
+    <section id="skills" class="section"></section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>업무 자동화와 앱 개발 역량을 소개하기 위해 제작한 포트폴리오입니다. 회사·고객사 정보는 익명 처리했습니다.</p>
+  </footer>
+
+  <dialog id="modal"></dialog>
+  <script src="js/app.js"></script>
+</body>
+</html>

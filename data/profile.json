@@ -1,0 +1,23 @@
+{
+  "name": "배태영",
+  "title": "Microsoft Power Platform 개발자",
+  "tagline": "수작업의 비효율을 걷어내고, 비즈니스의 핵심 가치를 연결합니다.",
+  "email": "baetae3584@naver.com",
+  "summary": "3년 이상 경력의 Microsoft Power Platform 개발자입니다. 반복 업무 자동화(RPA)부터 기업 맞춤형 내부 앱(Power Apps) 구축까지, 현업의 불편을 깊이 이해하고 실제 업무 시간 단축으로 연결해 왔습니다.",
+  "strengths": [
+    "Power Platform(Power Automate, Power Apps) 개발",
+    "Microsoft 365 연동(Teams, Outlook, SharePoint, Entra ID)",
+    "사용자 중심 UX/UI 설계와 현업 교육",
+    "유연한 커뮤니케이션"
+  ],
+  "skills": [
+    { "group": "자동화·앱", "items": ["Power Automate Desktop", "Power Automate Cloud Flow", "Power Apps", "Dataverse", "SharePoint"] },
+    { "group": "연동·데이터", "items": ["Microsoft Graph API", "REST API", "SQL", "Excel(VBScript)", "VBScript", "PowerShell"] },
+    { "group": "협업·운영", "items": ["Teams", "Outlook", "Microsoft Forms", "Entra ID", "프로세스 정의서·메뉴얼 작성", "교육·컨설팅"] }
+  ],
+  "career": [
+    { "org": "R사 (제조업)", "role": "IT 부서 RPA 담당", "period": "2025.10 ~ 현재", "note": "RPA 도입과 전사 확산, 21개 자동화 플로우 운영" },
+    { "org": "덱스컨설팅", "role": "Power Platform 운영·개발", "period": "2023.03 ~ 2025.10", "note": "RPA 유지보수·개발, Power Apps 앱 개발, 기업 교육" }
+  ],
+  "education": "한라대학교 IT소프트웨어학 졸업"
+}

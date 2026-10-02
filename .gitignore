@@ -1,0 +1,15 @@
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+credentials.json
+serviceAccount*.json
+node_modules/
+*.log
+tmp/
+tools/forbidden.txt
+tools/raw/
+tools/migrate-projects.mjs

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "P01", "type": "rpa",
+    "title": "전자제품 유통 계열사 RPA 유지보수·개발",
+    "company": "덱스컨설팅 (전자제품 유통 계열사 파견)",
+    "period": "2024.01 ~ 2025.10 (22개월)",
+    "role": "유지보수 고도화 프로젝트 PL / 개발 및 운영 총괄",
+    "summary": "온라인 가격 조사(약 2,000건 수집·정제), 전기료 자동이체(SAP 연동), 세금계산서 관리, 인증정보 검수 등 80여 개 과제를 운영했습니다. 가격 조사 사이트 변경으로 성공률이 30% 하락했을 때 VM 증설(4대→6대)과 과제 리뉴얼로 복구했습니다.",
+    "achievement": "80여 개 RPA 과제 안정성 98% 유지, 가격 조사 수작업 16시간 → 5시간 단축",
+    "tech": ["Power Automate", "Outlook", "FTP", "SAP", "SQL", "VBScript"]
+  },
+  {
+    "id": "P02", "type": "rpa",
+    "title": "대형 유통 계열사 담배소매인 고시공고 자동 수집 RPA",
+    "company": "덱스컨설팅 (대형 유통 계열사)",
+    "period": "2023.07 ~ 2023.09 (3개월)",
+    "role": "RPA 프로세스 개발, 웹 크롤링 로직 설계",
+    "summary": "전국 250여 개 지자체 사이트에 분산된 담배소매인 지정 고시·공고를 자동 수집·정제하고 담당 팀별로 알림을 발송하는 시스템을 구축했습니다. 지자체별로 다른 웹 구조는 계층형 검색 구조로 대응했습니다.",
+    "achievement": "고시·공고 데이터 수집 시간 90% 단축",
+    "tech": ["Power Automate Desktop", "VBScript", "웹 크롤링", "SQL", "HTML", "Outlook"]
+  },
+  {
+    "id": "P03", "type": "rpa",
+    "title": "글로벌 패션 브랜드 한국 법인 2차 RPA 구축 및 기업교육",
+    "company": "덱스컨설팅 (글로벌 패션 브랜드 한국 법인)",
+    "period": "2023.07 ~ 2023.09 (3개월)",
+    "role": "RPA 프로세스 설계·개발, 기업 교육 강사",
+    "summary": "인사 부서의 근태 관리 효율을 높이기 위해 근태 시스템 데이터를 기반으로 5개 자동화 프로세스를 구축하고, 현업 담당자 대상 RPA 실무 교육을 병행했습니다.",
+    "achievement": "근무 일정 관리 및 미준수자 선별 업무 시간 80% 단축",
+    "tech": ["Power Automate Desktop", "근태 시스템 연동", "SQL", "VBScript", "Outlook", "Excel"]
+  },
+  {
+    "id": "P04", "type": "app",
+    "title": "대형 마트 유통사 Power Apps 개발 (상품권 신청 관리)",
+    "company": "덱스컨설팅 (대형 마트 유통사)",
+    "period": "2023.11 ~ 2024.01 (3개월)",
+    "role": "앱 설계·개발, DB 구성, Power Automate 설계·개발, Forms 연동",
+    "summary": "Microsoft Forms와 Power Apps를 연동해 상품권 구매 신청, 판매, 현황 데이터를 실시간 통합 관리하는 앱을 개발했습니다. 자동 알림으로 지급 누락을 방지했습니다.",
+    "achievement": "고객사별 상품권 판매 신청 관리·안내 메일 자동화로 업무 시간 40% 단축",
+    "tech": ["Power Apps", "Power Automate", "Forms", "Outlook", "SharePoint"]
+  },
+  {
+    "id": "P05", "type": "app",
+    "title": "건설·엔지니어링 계열사 협력사 라이선스 통합 관리 앱",
+    "company": "덱스컨설팅 (건설·엔지니어링 계열사)",
+    "period": "2023.11 ~ 2024.01 (3개월)",
+    "role": "프로젝트 PL, 앱 설계·개발, DB 구성, Azure AD 그룹 개발, 교육",
+    "summary": "3개 프로그램으로 나뉘어 있던 협력사 계정·라이선스 관리를 Power Apps 하나로 통합하고, 계정 목록 관리(CRUD) 앱을 개발했습니다. 고객사 사용자 대상 메인 강사로 교육을 진행했습니다.",
+    "achievement": "협력사 라이선스 관리 시간 75% 단축, 잉여 라이선스 회수율 70% 증가",
+    "tech": ["Power Apps", "Power Automate", "Azure AD", "Teams", "SharePoint"]
+  },
+  {
+    "id": "P06", "type": "app",
+    "title": "덱스컨설팅 통합 관리 플랫폼 운영",
+    "company": "덱스컨설팅",
+    "period": "2024.01 ~ 2024.10 (10개월)",
+    "role": "앱 시스템 운영·유지보수, 사용자 요청사항 반영",
+    "summary": "출퇴근, 게시판, 회의실 예약, 인력 관리, 휴가 신청, 프로젝트 관리 등 Power Apps 기반 사내 시스템을 총괄 운영하고, 하나의 인터페이스로 관리하는 플랫폼을 구축했습니다.",
+    "achievement": "10개 이상 관리 앱의 안정 운영과 지속적 기능 개선",
+    "tech": ["Power Apps", "Power Automate", "SharePoint", "Dataverse", "Teams"]
+  },
+  {
+    "id": "P07", "type": "app",
+    "title": "사내 프로젝트 관리 시스템 개발",
+    "company": "덱스컨설팅",
+    "period": "2023.05 ~ 2023.07 (3개월)",
+    "role": "Power Apps/Automate 설계·개발, Dataverse 설계, 기획·디자인 제안",
+    "summary": "전사 직원의 프로젝트 현황을 통합 관리하고, Excel 기반 수작업 프로세스를 Power Apps로 완전히 통합했습니다.",
+    "achievement": "인사 부서 수작업 기반 프로젝트 데이터 관리 프로세스를 통합해 실사용 정착",
+    "tech": ["Power Apps", "Power Automate", "SharePoint", "Dataverse", "Outlook", "Teams"]
+  },
+  {
+    "id": "P08", "type": "app",
+    "title": "사내 인력·역량 관리 시스템 개발",
+    "company": "덱스컨설팅",
+    "period": "2023.04 ~ 2023.05 (2개월)",
+    "role": "Power Apps/Automate 설계·개발, Dataverse·SharePoint 연동 설계",
+    "summary": "파편화되어 있던 직원 역량, 프로필, 자격증 정보를 체계적으로 관리하고, 자격증 만료 알림으로 행정 관리 누락을 방지했습니다.",
+    "achievement": "전 직원 역량 데이터 통합 및 개인 정보 관리 체계 구축",
+    "tech": ["Power Apps", "Power Automate", "SharePoint", "Dataverse", "Outlook", "Teams"]
+  }
+]
